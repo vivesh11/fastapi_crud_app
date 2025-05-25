@@ -41,4 +41,4 @@ jobs:
     if: success()
     steps:
       - name: Deployment Step
-        run: echo "Deploying to environment: ${{ github.ref_name }} (simulated)"
+        run: 'echo "Deploying to environment: ${{ github.ref_name }} (simulated)"'

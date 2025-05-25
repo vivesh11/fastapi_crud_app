@@ -1,4 +1,3 @@
-# === README.md ===
 # FastAPI CRUD App
 
 This is a basic FastAPI application implementing simple CRUD operations with CI/CD and code quality enforcement using GitHub Actions and Ruff.

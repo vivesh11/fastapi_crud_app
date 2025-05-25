@@ -35,7 +35,9 @@ jobs:
         run: ruff check .
 
       - name: Run Pytest
-        run: pytest
+        run: |
+          export PYTHONPATH=$PWD
+          pytest
 
   deploy:
     needs: lint-and-test

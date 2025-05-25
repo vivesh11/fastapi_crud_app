@@ -1,5 +1,4 @@
 # === tests/test_crud.py ===
-import pytest
 from app.models import Item
 from app.crud import create_item, read_item, update_item, delete_item
 

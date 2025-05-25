@@ -7,11 +7,13 @@ on:
       - dev
       - qa
       - prod
+      - main
   pull_request:
     branches:
       - dev
       - qa
       - prod
+      - main
 
 jobs:
   lint-and-test:
